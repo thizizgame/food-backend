@@ -3,7 +3,7 @@ import express, { Application, Request, Response } from "express";
 import { nanoid } from "nanoid";
 
 const app: Application = express();
-const port = 3000;
+const port = 4000;
 
 let tasks = [
     { id: nanoid(), name: "Shalaa ugaah", mode: false },
